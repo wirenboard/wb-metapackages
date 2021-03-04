@@ -1,0 +1,5 @@
+wb-metapackages (1.0) unstable; urgency=medium
+
+  * Initial release. (Closes: #32254)
+
+ -- Nikita Maslov <nikita.maslov@wirenboard.ru>  Thu, 04 Mar 2021 15:56:38 +0300

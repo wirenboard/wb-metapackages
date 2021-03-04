@@ -1,0 +1,27 @@
+Source: wb-metapackages
+Section: metapackages
+Priority: optional
+Maintainer: Nikita Maslov <nikita.maslov@wirenboard.ru>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Vcs-Git: https://github.com/wirenboard/wb-metapackages
+
+Package: wb-suite
+Architecture: all
+Description: Wirenboard vendor software set
+ This metapackage pulls in all the packages from Wirenboard vendor
+Depends: ${misc:Depends},
+# wirenboard release info, specific version is stored in repository
+         wb-release-info,
+# configuration
+         wb-dt-overlays, wb-hwconf-manager, wb-knxd-config,
+# wb-configs may be sensitive to an installation order, so keep it away for now
+#        wb-configs
+# software packages
+         wb-mqtt-serial, wb-mqtt-w1, wb-mqtt-gpio, wb-mqtt-adc, wb-mqtt-dac,
+         wb-rules, wb-rules-system, wb-mqtt-db, wb-mqtt-db-cli,
+         wb-mqtt-mbgate, wb-mqtt-homeui, wb-mqtt-knx,
+         wb-mcu-fw-flasher, wb-mcu-fw-updater,
+         wb-daemon-watchdogs, wb-mqtt-confed,
+		 wb-homa-ism-radio
+
