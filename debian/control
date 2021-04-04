@@ -1,22 +1,34 @@
 Source: wb-metapackages
 Section: metapackages
-Priority: optional
+Priority: standard
 Maintainer: Nikita Maslov <nikita.maslov@wirenboard.ru>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.8
 Vcs-Git: https://github.com/wirenboard/wb-metapackages
 
+Package: wb-essential
+Architecture: all
+Essential: yes
+Priority: required
+Description: Wirenboard essential packages
+ This metapackage brings all packages which MUST be installed in every
+ Wirenboard installation
+Depends: ${misc:Depends},
+# configuration
+         wb-release-info, wb-configs,
+#        wb-hwconf-manager, wb-dt-overlays
+# kernel
+         linux-image-wb6 | linux-image-wb2
+
 Package: wb-suite
 Architecture: all
 Description: Wirenboard vendor software set
  This metapackage pulls in all the packages from Wirenboard vendor
-Depends: ${misc:Depends},
-# wirenboard release info, specific version is stored in repository
-         wb-release-info,
+Depends: ${misc:Depends}, wb-essential,
 # configuration
-         wb-dt-overlays, wb-hwconf-manager, wb-knxd-config,
-# wb-configs may be sensitive to an installation order, so keep it away for now
-#        wb-configs
+         wb-knxd-config,
+# utilities
+         wb-update-manager,
 # software packages
          wb-mqtt-serial, wb-mqtt-w1, wb-mqtt-gpio, wb-mqtt-adc, wb-mqtt-dac,
          wb-rules, wb-rules-system, wb-mqtt-db, wb-mqtt-db-cli,
