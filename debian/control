@@ -15,8 +15,7 @@ Description: Wirenboard essential packages
  Wirenboard installation
 Depends: ${misc:Depends},
 # configuration
-         wb-release-info, wb-configs,
-#        wb-hwconf-manager, wb-dt-overlays
+         wb-release-info, wb-configs, wb-hwconf-manager, wb-dt-overlays,
 # kernel
          linux-image-wb6 | linux-image-wb2
 
@@ -34,6 +33,5 @@ Depends: ${misc:Depends}, wb-essential,
          wb-rules, wb-rules-system, wb-mqtt-db, wb-mqtt-db-cli,
          wb-mqtt-mbgate, wb-mqtt-homeui, wb-mqtt-knx,
          wb-mcu-fw-flasher, wb-mcu-fw-updater,
-         wb-daemon-watchdogs, wb-mqtt-confed,
-		 wb-homa-ism-radio
+         wb-mqtt-confed, wb-homa-ism-radio
 
