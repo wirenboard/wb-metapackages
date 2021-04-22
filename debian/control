@@ -1,0 +1,39 @@
+Source: wb-metapackages
+Section: metapackages
+Priority: standard
+Maintainer: Nikita Maslov <nikita.maslov@wirenboard.ru>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Vcs-Git: https://github.com/wirenboard/wb-metapackages
+Homepage: https://github.com/wirenboard/wb-metapackages
+
+Package: wb-essential
+Architecture: all
+Essential: yes
+Priority: required
+Description: Wirenboard essential packages
+ This metapackage brings all packages which MUST be installed in every
+ Wirenboard installation
+Depends: ${misc:Depends},
+# configuration
+         wb-release-info, wb-configs, wb-hwconf-manager, wb-dt-overlays,
+# kernel
+         linux-image-wb6 | linux-image-wb2
+
+Package: wb-suite
+Architecture: all
+Description: Wirenboard vendor software set
+ This metapackage pulls in all the packages from Wirenboard vendor
+Depends: ${misc:Depends}, wb-essential,
+# configuration
+         wb-knxd-config,
+# utilities
+         wb-update-manager,
+# software packages
+         wb-mqtt-w1 | wb-homa-w1, wb-mqtt-gpio | wb-homa-gpio, wb-mqtt-adc | wb-homa-adc,
+         wb-mqtt-serial, wb-mqtt-dac,
+         wb-rules, wb-rules-system, wb-mqtt-db, wb-mqtt-db-cli,
+         wb-mqtt-mbgate, wb-mqtt-homeui, wb-mqtt-knx,
+         wb-mcu-fw-flasher, wb-mcu-fw-updater,
+         wb-mqtt-confed, wb-homa-ism-radio
+
