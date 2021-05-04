@@ -1,3 +1,9 @@
+wb-metapackages (1.1) stable; urgency=medium
+
+  * add wb-mqtt-opcua to wb-suite
+
+ -- Nikita Maslov <nikita.maslov@wirenboard.ru>  Tue, 04 May 2021 21:04:43 +0300
+
 wb-metapackages (1.0) unstable; urgency=medium
 
   * Initial release. (Closes: #32254)
