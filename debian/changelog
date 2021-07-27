@@ -1,3 +1,9 @@
+wb-metapackages (1.2) stable; urgency=medium
+
+  * remove wb-homa-ism-radio from wb-suite (#35468)
+
+ -- Nikita Maslov <nikita.maslov@wirenboard.ru>  Tue, 27 Jul 2021 14:58:34 +0300
+
 wb-metapackages (1.1) stable; urgency=medium
 
   * add wb-mqtt-opcua to wb-suite
