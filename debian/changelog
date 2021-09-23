@@ -1,3 +1,9 @@
+wb-metapackages (1.3) stable; urgency=medium
+
+  * add wb-mqtt-logs to wb-suite
+
+ -- Nikita Maslov <nikita.maslov@wirenboard.ru>  Thu, 23 Sep 2021 09:53:36 +0300
+
 wb-metapackages (1.2) stable; urgency=medium
 
   * remove wb-homa-ism-radio from wb-suite (#35468)
