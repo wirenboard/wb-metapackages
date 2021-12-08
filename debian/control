@@ -18,7 +18,7 @@ Depends: ${misc:Depends},
 # configuration
          wb-release-info, wb-configs, wb-hwconf-manager, wb-dt-overlays,
 # kernel
-         linux-image-wb6 | linux-image-wb2
+         linux-image-wb7 | linux-image-wb6 | linux-image-wb2
 
 Package: wb-suite
 Architecture: all
