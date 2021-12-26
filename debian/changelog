@@ -1,3 +1,9 @@
+wb-metapackages (1.5.0) stable; urgency=medium
+
+  * add Wiren Board 7 linux-image support
+
+ -- Nikita Maslov <nikita.maslov@wirenboard.ru>  Wed, 08 Dec 2021 22:33:04 +0300
+
 wb-metapackages (1.4.0) stable; urgency=medium
 
   * add wb-diag-collect to wb-suite
