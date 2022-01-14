@@ -1,3 +1,9 @@
+wb-metapackages (1.6.0) stable; urgency=medium
+
+  * add u-boot image and tools to wb-essential
+
+ -- Nikita Maslov <nikita.maslov@wirenboard.ru>  Fri, 14 Jan 2022 21:17:17 +0300
+
 wb-metapackages (1.5.0) stable; urgency=medium
 
   * add Wiren Board 7 linux-image support
