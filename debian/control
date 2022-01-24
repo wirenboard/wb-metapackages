@@ -37,5 +37,5 @@ Depends: ${misc:Depends}, wb-essential,
          wb-rules, wb-rules-system, wb-mqtt-db, wb-mqtt-db-cli,
          wb-mqtt-mbgate, wb-mqtt-homeui, wb-mqtt-knx,
          wb-mcu-fw-flasher, wb-mcu-fw-updater,
-         wb-mqtt-confed, wb-mqtt-opcua, wb-mqtt-logs, wb-diag-collect
+         wb-mqtt-confed, wb-mqtt-opcua, wb-mqtt-logs, wb-diag-collect, wb-mqtt-metrics
 

@@ -1,3 +1,9 @@
+wb-metapackages (1.7.0) stable; urgency=medium
+
+  * add wb-mqtt-metrics to wb-suite
+
+ -- Nikita Maslov <nikita.maslov@wirenboard.ru>  Mon, 07 Feb 2022 11:22:04 +0300
+
 wb-metapackages (1.6.0) stable; urgency=medium
 
   * add u-boot image and tools to wb-essential
