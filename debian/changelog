@@ -1,3 +1,9 @@
+wb-metapackages (1.6.0) stable; urgency=medium
+
+  * add wb-mqtt-metrics to wb-suite
+
+ -- Nikita Maslov <nikita.maslov@wirenboard.ru>  Mon, 24 Jan 2022 13:03:34 +0300
+
 wb-metapackages (1.5.0) stable; urgency=medium
 
   * add Wiren Board 7 linux-image support
