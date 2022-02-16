@@ -1,3 +1,10 @@
+wb-metapackages (1.8.0) stable; urgency=medium
+
+  * add wb-test-suite-deps package with dependencies
+    for Wiren Board post-production tests
+
+ -- Nikita Maslov <nikita.maslov@wirenboard.ru>  Wed, 16 Feb 2022 18:48:25 +0300
+
 wb-metapackages (1.7.0) stable; urgency=medium
 
   * add wb-mqtt-metrics to wb-suite
