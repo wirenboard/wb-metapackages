@@ -48,3 +48,12 @@ Description: Wiren Board test-suite dependencies
 Depends: ${misc:Depends}, python-wb-io (>= 1.2), gammu, device-tree-compiler, python-mysqldb, python-crypto, python-termcolor,
     python-can, wb-hwconf-manager (>= 1.25), wb-utils (>= 1.65),
     python-wb-common (>= 1.3.3), python-gsmmodem-new, wb-mqtt-adc (>= 2.0.7)
+
+Package: wb-test-suite-dummy
+Architecture: all
+Provides: wb-test-suite (= 0.1.0)
+Description: Dummy package to provide wb-test-suite required by old build scripts
+ This is a dummy package which purpose is only to make old build scripts
+ not to fail because of missing wb-test-suite (which was removed from public
+ repository recently).
+ This package can safely be removed or replaced with the actual wb-test-suite.

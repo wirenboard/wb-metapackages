@@ -1,3 +1,10 @@
+wb-metapackages (1.9.0) stable; urgency=medium
+
+  * add wb-test-suite-dummy package to provide wb-test-suite for old
+    build scripts
+
+ -- Nikita Maslov <nikita.maslov@wirenboard.ru>  Wed, 02 Mar 2022 09:10:04 +0300
+
 wb-metapackages (1.8.0) stable; urgency=medium
 
   * add wb-test-suite-deps package with dependencies
