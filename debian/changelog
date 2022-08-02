@@ -1,3 +1,9 @@
+wb-metapackages (1.11.0) stable; urgency=medium
+
+  * add wb-update-notifier to wb-suite
+
+ -- Vladimir Romanov <v.romanov@wirenboard.ru>  Wed, 27 Jul 2022 10:53:11 +0300
+
 wb-metapackages (1.10.0) stable; urgency=medium
 
   * add exfat-fuse for ExFAT filesystem support
