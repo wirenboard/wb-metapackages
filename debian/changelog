@@ -1,3 +1,10 @@
+wb-metapackages (1.12.0) stable; urgency=medium
+
+  * add python3-wb-test-suite-deps metapackage
+  * actualize wb-test-suite core dependencies
+
+ -- Vladimir Romanov <v.romanov@wirenboard.ru>  Mon, 8 Aug 2022 08:54:49 +0300
+
 wb-metapackages (1.11.0) stable; urgency=medium
 
   * add wb-update-notifier to wb-suite

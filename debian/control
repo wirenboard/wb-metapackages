@@ -27,7 +27,7 @@ Package: wb-suite
 Architecture: all
 Description: Wirenboard vendor software set
  This metapackage pulls in all the packages from Wirenboard vendor
-Recommends: wb-test-suite-deps, wb-update-notifier
+Recommends: wb-test-suite-deps | python3-wb-test-suite-deps, wb-update-notifier
 Depends: ${misc:Depends}, wb-essential,
 # configuration
          wb-knxd-config,
@@ -46,9 +46,18 @@ Architecture: all
 Description: Wiren Board test-suite dependencies
  This metapackage pulls in all the packages required for Wiren Board
  post-production tests
-Depends: ${misc:Depends}, python-wb-io (>= 1.2), gammu, device-tree-compiler, python-mysqldb, python-crypto, python-termcolor,
-    python-can, wb-hwconf-manager (>= 1.25), wb-utils (>= 1.65),
-    python-wb-common (>= 1.3.3), python-gsmmodem-new, wb-mqtt-adc (>= 2.0.7)
+Depends: ${misc:Depends}, device-tree-compiler, python-mysqldb, python-termcolor, python-serial,
+    python-can, python-smbus, python-six, wb-hwconf-manager (>= 1.25), wb-utils (>= 1.65),
+    python-wb-common (>= 1.3.3), wb-mqtt-adc (>= 2.0.7)
+
+Package: python3-wb-test-suite-deps
+Architecture: all
+Description: Wiren Board test-suite dependencies (python3 packages)
+ This metapackage pulls in all the packages required for Wiren Board
+ post-production tests (python3)
+Depends: ${misc:Depends}, device-tree-compiler, python3-mysqldb, python3-termcolor, python3-serial,
+    python3-can, python3-smbus, python3-six, wb-hwconf-manager (>= 1.25), wb-utils (>= 1.65),
+    python3-wb-common (>= 1.5.0), wb-mqtt-adc (>= 2.0.7)
 
 Package: wb-test-suite-dummy
 Architecture: all
