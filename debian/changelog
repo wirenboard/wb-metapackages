@@ -1,3 +1,10 @@
+wb-metapackages (1.13.0) stable; urgency=medium
+
+  * provide python3-wb-test-suite-deps exclusively
+  * remove old python2 test-suite deps
+
+ -- Nikita Maslov <nikita.maslov@wirenboard.ru>  Fri, 14 Oct 2022 18:52:47 +0600
+
 wb-metapackages (1.12.0) stable; urgency=medium
 
   * add python3-wb-test-suite-deps metapackage
