@@ -1,3 +1,9 @@
+wb-metapackages (1.14.0) stable; urgency=medium
+
+  * remove wb-common from test-suite deps (moved to test-suite)
+
+ -- Nikita Maslov <nikita.maslov@wirenboard.ru>  Wed, 02 Nov 2022 12:04:44 +0600
+
 wb-metapackages (1.13.0) stable; urgency=medium
 
   * provide python3-wb-test-suite-deps exclusively

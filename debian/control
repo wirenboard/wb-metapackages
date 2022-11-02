@@ -51,7 +51,7 @@ Description: Wiren Board test-suite dependencies (python3 packages)
  post-production tests (python3)
 Depends: ${misc:Depends}, device-tree-compiler, python3-mysqldb, python3-termcolor, python3-serial,
     python3-can, python3-smbus, python3-six, wb-hwconf-manager (>= 1.25), wb-utils (>= 1.65),
-    python3-wb-common (>= 1.5.0), wb-mqtt-adc (>= 2.0.7)
+    wb-mqtt-adc (>= 2.0.7)
 
 Package: wb-test-suite-dummy
 Architecture: all
