@@ -1,3 +1,9 @@
+wb-metapackages (1.15.0) stable; urgency=medium
+
+  * wb-suite: use python3-wb-test-suite-deps instead of old python2's
+
+ -- Nikita Maslov <nikita.maslov@wirenboard.ru>  Mon, 07 Nov 2022 13:09:16 +0600
+
 wb-metapackages (1.14.0) stable; urgency=medium
 
   * remove wb-common from test-suite deps (moved to test-suite)
