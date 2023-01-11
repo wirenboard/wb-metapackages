@@ -33,7 +33,7 @@ Depends: ${misc:Depends}, wb-essential,
 # configuration
          wb-knxd-config,
 # utilities
-         wb-update-manager,
+         wb-update-manager, wb-nm-helper,
 # software packages
          wb-mqtt-w1 | wb-homa-w1, wb-mqtt-gpio | wb-homa-gpio, wb-mqtt-adc | wb-homa-adc,
          wb-mqtt-serial, wb-mqtt-dac,

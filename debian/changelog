@@ -1,3 +1,9 @@
+wb-metapackages (1.17.0) stable; urgency=medium
+
+  * wb-suite: add wb-nm-helper to install NetworkManager everywhere
+
+ -- Nikita Maslov <nikita.maslov@wirenboard.ru>  Wed, 11 Jan 2023 22:26:22 +0600
+
 wb-metapackages (1.16.0) stable; urgency=medium
 
   * wb-suite: add wb-device-manager
