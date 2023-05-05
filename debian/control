@@ -27,7 +27,7 @@ Package: wb-suite
 Architecture: all
 Description: Wirenboard vendor software set
  This metapackage pulls in all the packages from Wirenboard vendor
-Recommends: python3-wb-test-suite-deps, wb-update-notifier, mc, gpiod
+Recommends: python3-wb-test-suite-deps, wb-update-notifier, mc, gpiod, modbus-utils-rpc
 Breaks: wb-test-suite-deps (<= 1.12.0)
 Depends: ${misc:Depends}, wb-essential,
 # configuration
