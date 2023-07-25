@@ -1,14 +1,20 @@
+wb-metapackages (1.17.3) stable; urgency=medium
+
+  * Fix deb/changelog
+
+ -- Nikolay Korotkiy <nikolay.korotkiy@wirenboard.com>  Tue, 25 Jul 2023 20:02:00 +0400
+
 wb-metapackages (1.17.2) stable; urgency=medium
 
   * wb-suite: add modbus-utils-rpc to recommends
 
- -- Nikolay Korotkiy <nikolay.korotkiy@wirenboard.com> Thu, 04 May 2023 16:32:00 +0400
+ -- Nikolay Korotkiy <nikolay.korotkiy@wirenboard.com>  Thu, 04 May 2023 16:32:00 +0400
 
 wb-metapackages (1.17.1) stable; urgency=medium
 
   * wb-suite: add gpiod ro recommends
 
- --Ekaterina Volkova <ekaterina.volkova@wirenboard.ru>  Tue, 02 May 2023 15:26:07 +0300
+ -- Ekaterina Volkova <ekaterina.volkova@wirenboard.ru>  Tue, 02 May 2023 15:26:07 +0300
 
 wb-metapackages (1.17.0) stable; urgency=medium
 
