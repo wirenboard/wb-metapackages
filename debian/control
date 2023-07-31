@@ -63,3 +63,10 @@ Description: Dummy package to provide wb-test-suite required by old build script
  not to fail because of missing wb-test-suite (which was removed from public
  repository recently).
  This package can safely be removed or replaced with the actual wb-test-suite.
+
+Package: wb5-generic
+Architecture: all
+Description: Wirenboard wb5 packages
+ This metapackage brings wb5 packages for 5*, 6*, 7x WB in wirenboard/boards/ section.(smth for rootfs gen). 
+Depends: ${misc:Depends}, wb-suite, netplug, hostapd, bluez, can-utils, u-boot-tools-wb, cron, bluez-hcidump
+
