@@ -64,9 +64,9 @@ Description: Dummy package to provide wb-test-suite required by old build script
  repository recently).
  This package can safely be removed or replaced with the actual wb-test-suite.
 
-Package: wb-common
+Package: task-wb-common-pkgs
 Architecture: all
-Description: Wirenboard wb-common packages
+Description: Wiren Board common packages
  This metapackage brings wb-common packages for all new WB in wirenboard/boards/ section.(smth for rootfs gen). 
 Depends: ${misc:Depends}, libateccssl1.1, knxd, knxd-tools, wb-suite, netplug, hostapd, bluez, can-utils, u-boot-tools-wb, cron, bluez-hcidump 
 
