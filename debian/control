@@ -74,7 +74,7 @@ Package: task-wb-additional-pkgs
 Architecture: all
 Description: Wiren Board additional packages
  This metapackage brings wb-additional packages for all WB in wirenboard rootfs cache gen. 
-Depends: ${misc:Depends}, netbase, ifupdown, iproute2, openssh-server, iputils-ping, wget, udev, net-tools, ntpdate, ntp, vim, nano, less, tzdata, mc, wireless-tools, usbutils, i2c-tools, isc-dhcp-client, wpasupplicant, psmisc, curl, dnsmasq, memtester, apt-utils, dialog, locales, python3-minimal, unzip, minicom, iw, ppp, ssmtp, moreutils, firmware-realtek, logrotate, libnss-mdns, kmod, linux-image-${KERNEL_FLAVOUR}, systemd-sysv
+Depends: ${misc:Depends}, netbase, ifupdown, iproute2, openssh-server, iputils-ping, wget, udev, net-tools, ntpdate, ntp, vim, nano, less, tzdata, mc, wireless-tools, usbutils, i2c-tools, isc-dhcp-client, wpasupplicant, psmisc, curl, dnsmasq, memtester, apt-utils, dialog, locales, python3-minimal, unzip, minicom, iw, ppp, ssmtp, moreutils, firmware-realtek, logrotate, libnss-mdns, kmod, systemd-sysv
 
 Package: task-wb-contactless-pkgs
 Architecture: all
