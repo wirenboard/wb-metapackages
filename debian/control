@@ -70,7 +70,7 @@ Description: Wiren Board common packages
  This metapackage brings wb-common packages for all new WB in wirenboard/boards/ section.(smth for rootfs gen). 
 Depends: ${misc:Depends}, libateccssl1.1, knxd, knxd-tools, wb-suite, netplug, hostapd, bluez, can-utils, u-boot-tools-wb, cron, bluez-hcidump 
 
-Package: task-wb-additional-pkgs
+Package: task-wb-base-system
 Architecture: all
 Description: Wiren Board additional packages
  This metapackage brings wb-additional packages for all WB in wirenboard rootfs cache gen. 
