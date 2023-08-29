@@ -1,8 +1,8 @@
 wb-metapackages (1.17.4) stable; urgency=medium
 
-  * task-wb-common-pkgs added
+  * task-wb-base-system and task-wb-common-pkgs added
 
- -- Maxim Volodin <maxim.volodin@wirenboard.com>  Wed, 02 Aug 2023 19:26:30 +0300
+ -- Maxim Volodin <maxim.volodin@wirenboard.com>  Tue, 29 Aug 2023 13:26:30 +0300
 
 wb-metapackages (1.17.3) stable; urgency=medium
 
