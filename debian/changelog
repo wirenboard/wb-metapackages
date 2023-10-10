@@ -1,3 +1,9 @@
+wb-metapackages (1.18.0) stable; urgency=medium
+
+  * wb-essetial: add wb-firmware-realtek
+
+ -- Petr Krasnoshchekov <petr.krasnoshchekov@wirenboard.com>  Tue, 10 Oct 2023 16:27:03 +0500
+
 wb-metapackages (1.17.4) stable; urgency=medium
 
   * task-wb-base-system and task-wb-common-pkgs added
