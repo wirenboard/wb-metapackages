@@ -20,7 +20,9 @@ Depends: ${misc:Depends},
 # kernel
          linux-image-wb7 | linux-image-wb6 | linux-image-wb2,
 # u-boot image and tools
-         u-boot-wb7 | u-boot-wb6, u-boot-tools-wb
+         u-boot-wb7 | u-boot-wb6, u-boot-tools-wb,
+# firmwares for drivers
+         wb-firmware-realtek
 Recommends: exfat-fuse
 
 Package: wb-suite
