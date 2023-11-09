@@ -1,3 +1,9 @@
+wb-metapackages (1.18.1) stable; urgency=medium
+
+  * wb-suite: remove python3-wb-test-suite-deps from recommends
+
+ -- Nikolay Korotkiy <nikolay.korotkiy@wirenboard.com>  Thu, 09 Nov 2023 15:24:00 +0400
+
 wb-metapackages (1.18.0) stable; urgency=medium
 
   * wb-essetial: add wb-firmware-realtek
