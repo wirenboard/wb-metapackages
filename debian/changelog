@@ -1,3 +1,9 @@
+wb-metapackages (1.18.2) stable; urgency=medium
+
+  * add wb-mqtt-snmp, wb-mqtt-iec104, wb-mqtt-smartweb to wb-suite
+
+ -- Nikolay Korotkiy <nikolay.korotkiy@wirenboard.com>  Thu, 21 Dec 2023 12:21:00 +0400
+
 wb-metapackages (1.18.1) stable; urgency=medium
 
   * wb-suite: remove python3-wb-test-suite-deps from recommends
