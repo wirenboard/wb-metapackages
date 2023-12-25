@@ -44,7 +44,7 @@ Depends: ${misc:Depends}, wb-essential,
          wb-mcu-fw-flasher, wb-mcu-fw-updater,
          wb-device-manager,
          wb-mqtt-confed, wb-mqtt-opcua, wb-mqtt-logs, wb-diag-collect, wb-mqtt-metrics,
-         wb-mqtt-iec104, wb-mqtt-snmp, wb-mqtt-smartweb
+         wb-mqtt-iec104
 
 Package: python3-wb-test-suite-deps
 Architecture: all
@@ -78,4 +78,3 @@ Architecture: all
 Description: Wiren Board base system packages
  This metapackage brings wb-base-system packages for all WB in wirenboard rootfs cache gen. 
 Depends: ${misc:Depends}, netbase, ifupdown, iproute2, openssh-server, iputils-ping, wget, udev, net-tools, ntpdate, ntp, vim, nano, less, tzdata, mc, wireless-tools, usbutils, i2c-tools, isc-dhcp-client, wpasupplicant, psmisc, curl, dnsmasq, memtester, apt-utils, dialog, locales, python3-minimal, unzip, minicom, iw, ppp, ssmtp, moreutils, firmware-realtek, logrotate, libnss-mdns, kmod, systemd-sysv
-
