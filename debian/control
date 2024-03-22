@@ -71,7 +71,7 @@ Package: task-wb-common-pkgs
 Architecture: all
 Description: Wiren Board common packages
  This metapackage brings wb-common packages for all new WB in wirenboard/boards/ section.(smth for rootfs gen). 
-Depends: ${misc:Depends}, cmux, hubpower, python-wb-io, modbus-utils, busybox, libmosquittopp1, libmosquitto1, mosquitto, mosquitto-clients, openssl, ca-certificates, avahi-daemon, pps-tools, device-tree-compiler, libateccssl1.1, knxd, knxd-tools, wb-suite, netplug, hostapd, bluez, can-utils, u-boot-tools-wb, cron, bluez-hcidump 
+Depends: ${misc:Depends}, modbus-utils, busybox, libmosquittopp1, libmosquitto1, mosquitto, mosquitto-clients, openssl, ca-certificates, avahi-daemon, pps-tools, device-tree-compiler, libateccssl1.1, knxd, knxd-tools, wb-suite, netplug, hostapd, bluez, can-utils, u-boot-tools-wb, cron, bluez-hcidump
 
 Package: task-wb-base-system
 Architecture: all
