@@ -1,3 +1,9 @@
+wb-metapackages (1.18.5) stable; urgency=medium
+
+  * Add linux-image-wb8/u-boot-wb8 deps
+
+ -- Nikolay Korotkiy <nikolay.korotkiy@wirenboard.com>  Thu, 14 Mar 2024 09:30:00 +0400
+
 wb-metapackages (1.18.4) stable; urgency=medium
 
   * task-wb-common-pkgs: remove cmux,hubpower,python-wb-io
