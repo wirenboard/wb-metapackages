@@ -1,3 +1,9 @@
+wb-metapackages (1.18.6) stable; urgency=medium
+
+  * wb-suite: add serial-tool to recommends
+
+ -- Vladimir Romanov <v.romanov@wirenboard.com>  Mon, 27 May 2024 11:20:21 +0300
+
 wb-metapackages (1.18.5) stable; urgency=medium
 
   * Add linux-image-wb8/u-boot-wb8 deps
