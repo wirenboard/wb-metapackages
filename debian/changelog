@@ -1,3 +1,9 @@
+wb-metapackages (1.18.3-wb100) stable; urgency=medium
+
+  * wb-suite: add serial-tool to recommends
+
+ -- Vladimir Romanov <v.romanov@wirenboard.com>  Mon, 27 May 2024 11:20:21 +0300
+
 wb-metapackages (1.18.3) stable; urgency=medium
 
   * remove wb-mqtt-snmp, wb-mqtt-smartweb from wb-suite
