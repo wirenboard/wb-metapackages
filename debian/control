@@ -44,7 +44,8 @@ Depends: ${misc:Depends}, wb-essential,
          wb-mcu-fw-flasher, wb-mcu-fw-updater,
          wb-device-manager,
          wb-mqtt-confed, wb-mqtt-opcua, wb-mqtt-logs, wb-diag-collect, wb-mqtt-metrics,
-         wb-mqtt-iec104
+         wb-mqtt-iec104,
+         wb-cloud-agent
 
 Package: python3-wb-test-suite-deps
 Architecture: all
