@@ -1,3 +1,9 @@
+wb-metapackages (1.18.8) stable; urgency=medium
+
+  * Add fdisk & exfat-utils to wb-suite
+
+ -- Vladimir Romanov <v.romanov@wirenboard.com>  Tue, 25 Jun 2024 19:37:30 +0300
+
 wb-metapackages (1.18.7) stable; urgency=medium
 
   * Add wb-cloud-agent to wb-suite
