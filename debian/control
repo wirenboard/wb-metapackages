@@ -23,7 +23,9 @@ Depends: ${misc:Depends},
          u-boot-wb8 | u-boot-wb7 | u-boot-wb6, u-boot-tools-wb,
 # firmwares for drivers
          wb-firmware-realtek
-Recommends: exfat-fuse
+Recommends: exfat-fuse,
+# armhf compatibility for wb8
+            libc6:armhf
 
 Package: wb-suite
 Architecture: all
