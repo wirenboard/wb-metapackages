@@ -25,7 +25,7 @@ Depends: ${misc:Depends},
          wb-firmware-realtek
 Recommends: exfat-fuse,
 # armhf compatibility for wb8
-            libc6:armhf
+            libc6:armhf [arm64]
 
 Package: wb-suite
 Architecture: all
