@@ -1,6 +1,6 @@
 wb-metapackages (1.18.8) stable; urgency=medium
 
-  * wb-suite: add libc6:armhf to recommends
+  * Add task-wirenboard-wb8
 
  -- Nikolay Korotkiy <nikolay.korotkiy@wirenboard.com>  Fri, 28 Jun 2024 16:20:00 +0400
 
