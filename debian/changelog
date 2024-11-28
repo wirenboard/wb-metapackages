@@ -1,3 +1,9 @@
+wb-metapackages (1.19.0-cb8ea449) stable; urgency=medium
+
+  * Remove wb-cloud-agent
+
+ -- Ekaterina Volkova <ekaterina.volkova@wirenboard.com>  Thu, 28 Nov 2024 14:30:19 +0300
+
 wb-metapackages (1.19.0) stable; urgency=medium
 
   * Add task-wirenboard-wb8
