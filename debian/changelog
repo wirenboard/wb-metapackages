@@ -1,3 +1,9 @@
+wb-metapackages (1.19.8-cb8ea449) stable; urgency=medium
+
+  * Vendor (cb8ea449): keep wb-suite without wb-cloud-agent
+
+ -- Ekaterina Volkova <ekaterina.volkova@wirenboard.com>  Thu, 28 Nov 2024 14:30:19 +0300
+
 wb-metapackages (1.19.8) stable; urgency=medium
 
   * Get back wb-scenarios for testing
