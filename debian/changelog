@@ -1,3 +1,9 @@
+wb-metapackages (1.19.2) stable; urgency=medium
+
+  * wb-suite: add mmc-utils to recommends
+
+ -- Nikolay Korotkiy <nikolay.korotkiy@wirenboard.com>  Tue, 21 Jan 2025 16:20:00 +0400
+
 wb-metapackages (1.19.1) stable; urgency=medium
 
   * Add wb-scenarios to wb-suite deps
