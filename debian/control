@@ -1,7 +1,7 @@
 Source: wb-metapackages
 Section: metapackages
 Priority: standard
-Maintainer: Nikita Maslov <nikita.maslov@wirenboard.ru>
+Maintainer: Wiren Board team <info@wirenboard.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.8
 Vcs-Git: https://github.com/wirenboard/wb-metapackages
@@ -29,7 +29,7 @@ Package: wb-suite
 Architecture: all
 Description: Wirenboard vendor software set
  This metapackage pulls in all the packages from Wirenboard vendor
-Recommends: wb-update-notifier, mc, gpiod, modbus-utils-rpc, serial-tool
+Recommends: wb-update-notifier, mc, gpiod, modbus-utils-rpc, serial-tool, mmc-utils
 Breaks: wb-test-suite-deps (<= 1.12.0)
 Depends: ${misc:Depends}, wb-essential,
 # configuration
