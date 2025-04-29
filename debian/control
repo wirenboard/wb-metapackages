@@ -29,7 +29,7 @@ Package: wb-suite
 Architecture: all
 Description: Wirenboard vendor software set
  This metapackage pulls in all the packages from Wirenboard vendor
-Recommends: wb-update-notifier, mc, gpiod, modbus-utils-rpc, serial-tool, mmc-utils
+Recommends: wb-update-notifier, mc, gpiod, modbus-utils-rpc, serial-tool, mmc-utils, python3-serial
 Breaks: wb-test-suite-deps (<= 1.12.0)
 Depends: ${misc:Depends}, wb-essential,
 # configuration
@@ -47,27 +47,6 @@ Depends: ${misc:Depends}, wb-essential,
          wb-mqtt-iec104,
          wb-cloud-agent,
          wb-scenarios
-
-Package: python3-wb-test-suite-deps
-Architecture: all
-Provides: wb-test-suite-deps
-Breaks: wb-test-suite-deps (<= 1.12.0)
-Replaces: wb-test-suite-deps (<= 1.12.0)
-Description: Wiren Board test-suite dependencies (python3 packages)
- This metapackage pulls in all the packages required for Wiren Board
- post-production tests (python3)
-Depends: ${misc:Depends}, device-tree-compiler, python3-mysqldb, python3-termcolor, python3-serial,
-    python3-can, python3-smbus, python3-six, wb-hwconf-manager (>= 1.25), wb-utils (>= 1.65),
-    wb-mqtt-adc (>= 2.0.7)
-
-Package: wb-test-suite-dummy
-Architecture: all
-Provides: wb-test-suite (= 0.1.0)
-Description: Dummy package to provide wb-test-suite required by old build scripts
- This is a dummy package which purpose is only to make old build scripts
- not to fail because of missing wb-test-suite (which was removed from public
- repository recently).
- This package can safely be removed or replaced with the actual wb-test-suite.
 
 Package: task-wb-common-pkgs
 Architecture: all

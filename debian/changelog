@@ -1,3 +1,10 @@
+wb-metapackages (1.19.3) stable; urgency=medium
+
+  * wb-suite: add explicit dependency of wb-test-suite-ng on python3-serial
+  * remove old test-suite metapackages
+
+ -- Ekaterina Volkova <ekaterina.volkova@wirenboard.com>  Tue, 29 Apr 2025 11:22:54 +0300
+
 wb-metapackages (1.19.2) stable; urgency=medium
 
   * wb-suite: add mmc-utils to recommends
