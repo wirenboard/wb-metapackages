@@ -29,7 +29,7 @@ Package: wb-suite
 Architecture: all
 Description: Wirenboard vendor software set
  This metapackage pulls in all the packages from Wirenboard vendor
-Recommends: wb-update-notifier, mc, gpiod, modbus-utils-rpc, serial-tool, mmc-utils
+Recommends: wb-update-notifier, mc, gpiod, modbus-utils-rpc, serial-tool, mmc-utils, python3-serial
 Breaks: wb-test-suite-deps (<= 1.12.0)
 Depends: ${misc:Depends}, wb-essential,
 # configuration
@@ -55,7 +55,7 @@ Breaks: wb-test-suite-deps (<= 1.12.0)
 Replaces: wb-test-suite-deps (<= 1.12.0)
 Description: Wiren Board test-suite dependencies (python3 packages)
  This metapackage pulls in all the packages required for Wiren Board
- post-production tests (python3)
+ post-production tests (python3). Not used for now.
 Depends: ${misc:Depends}, device-tree-compiler, python3-mysqldb, python3-termcolor, python3-serial,
     python3-can, python3-smbus, python3-six, wb-hwconf-manager (>= 1.25), wb-utils (>= 1.65),
     wb-mqtt-adc (>= 2.0.7)
