@@ -37,7 +37,7 @@ Depends: ${misc:Depends}, wb-essential,
 # utilities
          wb-update-manager, wb-nm-helper,
 # software packages
-         wb-mqtt-w1 | wb-homa-w1, wb-mqtt-gpio | wb-homa-gpio, wb-mqtt-adc | wb-homa-adc,
+         wb-mqtt-w1, wb-mqtt-gpio, wb-mqtt-adc,
          wb-mqtt-serial, wb-mqtt-dac,
          wb-rules, wb-rules-system, wb-mqtt-db, wb-mqtt-db-cli,
          wb-mqtt-mbgate, wb-mqtt-homeui, wb-mqtt-knx,
