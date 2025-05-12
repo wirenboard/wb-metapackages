@@ -1,3 +1,9 @@
+wb-metapackages (1.20.0) stable; urgency=medium
+
+  * Migrate to ntpsec
+
+ -- Nikolay Korotkiy <nikolay.korotkiy@wirenboard.com>  Mon, 12 May 2025 16:10:00 +0400
+
 wb-metapackages (1.19.7) stable; urgency=medium
 
   * wb-suite: remove wb-homa-* packages alternatives
