@@ -1,3 +1,9 @@
+wb-metapackages (1.19.8) stable; urgency=medium
+
+  * Get back wb-scenarios for testing
+
+ -- Ekaterina Volkova <ekaterina.volkova@wirenboard.com>  Mon, 09 Jun 2025 13:57:13 +0300
+
 wb-metapackages (1.19.7) stable; urgency=medium
 
   * wb-suite: remove wb-homa-* packages alternatives
