@@ -64,3 +64,8 @@ Package: task-wirenboard-wb8
 Architecture: all
 Description: Wiren Board 8 specific packages
 Recommends: libc6:armhf
+
+Package: wb-hdmi
+Architecture: all
+Description: Wiren Board 8 HDMI packages
+Depends: ${misc:Depends}, xserver-xorg, xinit, x11-xserver-utils, matchbox-window-manager, firefox-esr, unclutter
