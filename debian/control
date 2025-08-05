@@ -47,6 +47,7 @@ Depends: ${misc:Depends}, wb-essential,
          wb-mqtt-iec104,
          wb-cloud-agent,
          wb-scenarios
+         wb-mqtt-alice
 
 Package: task-wb-common-pkgs
 Architecture: all
