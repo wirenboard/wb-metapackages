@@ -1,6 +1,6 @@
 wb-metapackages (1.20.1) stable; urgency=medium
 
-  * Add wb-mqtt-alice to wb-suite deps
+  * Add wb-mqtt-alice to wb-suite recommends
 
  -- Mikhail Burchu <mikhail.burchu@wirenboard.com>  Tue, 05 Aug 2025 12:00:00 +0300
 
