@@ -16,11 +16,15 @@ Description: Wirenboard essential packages
  Wirenboard installation
 Depends: ${misc:Depends},
 # configuration
-         wb-release-info, wb-configs, wb-hwconf-manager, wb-dt-overlays,
+         wb-release-info,
+         wb-configs,
+         wb-hwconf-manager,
+         wb-dt-overlays,
 # kernel
          linux-image-wb8 | linux-image-wb7 | linux-image-wb6 | linux-image-wb2,
 # u-boot image and tools
-         u-boot-wb8 | u-boot-wb7 | u-boot-wb6, u-boot-tools-wb,
+         u-boot-wb8 | u-boot-wb7 | u-boot-wb6,
+         u-boot-tools-wb,
 # firmwares for drivers
          wb-firmware-realtek
 Recommends: exfat-fuse
@@ -29,36 +33,124 @@ Package: wb-suite
 Architecture: all
 Description: Wirenboard vendor software set
  This metapackage pulls in all the packages from Wirenboard vendor
-Recommends: wb-update-notifier, mc, gpiod, modbus-utils-rpc, serial-tool, mmc-utils, python3-serial, wb-modbus-ext-scanner, wb-mqtt-alice
+Recommends: wb-update-notifier,
+            mc,
+            gpiod,
+            modbus-utils-rpc,
+            serial-tool,
+            mmc-utils,
+            python3-serial,
+            wb-cloud-agent,
+            wb-modbus-ext-scanner,
+            wb-mqtt-alice
 Breaks: wb-test-suite-deps (<= 1.12.0)
-Depends: ${misc:Depends}, wb-essential,
+Depends: ${misc:Depends},
+         wb-essential,
 # configuration
          wb-knxd-config,
 # utilities
-         wb-update-manager, wb-nm-helper,
+         wb-update-manager,
+         wb-nm-helper,
 # software packages
-         wb-mqtt-w1, wb-mqtt-gpio, wb-mqtt-adc,
-         wb-mqtt-serial, wb-mqtt-dac,
-         wb-rules, wb-rules-system, wb-mqtt-db, wb-mqtt-db-cli,
-         wb-mqtt-mbgate, wb-mqtt-homeui, wb-mqtt-knx,
-         wb-mcu-fw-flasher, wb-mcu-fw-updater,
+         wb-mqtt-w1,
+         wb-mqtt-gpio,
+         wb-mqtt-adc,
+         wb-mqtt-serial,
+         wb-mqtt-dac,
+         wb-rules,
+         wb-rules-system,
+         wb-mqtt-db,
+         wb-mqtt-db-cli,
+         wb-mqtt-mbgate,
+         wb-mqtt-homeui,
+         wb-mqtt-knx,
+         wb-mcu-fw-flasher,
+         wb-mcu-fw-updater,
          wb-device-manager,
-         wb-mqtt-confed, wb-mqtt-opcua, wb-mqtt-logs, wb-diag-collect, wb-mqtt-metrics,
+         wb-mqtt-confed,
+         wb-mqtt-opcua,
+         wb-mqtt-logs,
+         wb-diag-collect,
+         wb-mqtt-metrics,
          wb-mqtt-iec104,
-         wb-cloud-agent,
          wb-scenarios
 
 Package: task-wb-common-pkgs
 Architecture: all
 Description: Wiren Board common packages
  This metapackage brings wb-common packages for all new WB in wirenboard/boards/ section.(smth for rootfs gen).
-Depends: ${misc:Depends}, modbus-utils, busybox, libmosquittopp1, libmosquitto1, mosquitto, mosquitto-clients, openssl, ca-certificates, avahi-daemon, pps-tools, device-tree-compiler, libateccssl1.1, knxd, knxd-tools, wb-suite, netplug, hostapd, bluez, can-utils, u-boot-tools-wb, cron, bluez-hcidump, ethtool, htop, ncdu, fdisk
+Depends: ${misc:Depends},
+         modbus-utils,
+         busybox,
+         libmosquittopp1,
+         libmosquitto1,
+         mosquitto,
+         mosquitto-clients,
+         openssl,
+         ca-certificates,
+         avahi-daemon,
+         pps-tools,
+         device-tree-compiler,
+         libateccssl1.1,
+         knxd,
+         knxd-tools,
+         wb-suite,
+         netplug,
+         hostapd,
+         bluez,
+         can-utils,
+         u-boot-tools-wb,
+         cron,
+         bluez-hcidump,
+         ethtool,
+         htop,
+         ncdu,
+         fdisk
 
 Package: task-wb-base-system
 Architecture: all
 Description: Wiren Board base system packages
  This metapackage brings wb-base-system packages for all WB in wirenboard rootfs cache gen.
-Depends: ${misc:Depends}, netbase, ifupdown, iproute2, openssh-server, iputils-ping, wget, udev, net-tools, ntpdate, ntp, vim, nano, less, tzdata, mc, wireless-tools, usbutils, i2c-tools, isc-dhcp-client, wpasupplicant, psmisc, curl, dnsmasq, memtester, apt-utils, dialog, locales, python3-minimal, unzip, minicom, iw, ppp, ssmtp, moreutils, firmware-realtek, logrotate, libnss-mdns, kmod, systemd-sysv
+Depends: ${misc:Depends},
+         netbase,
+         ifupdown,
+         iproute2,
+         openssh-server,
+         iputils-ping,
+         wget,
+         udev,
+         net-tools,
+         ntpdate,
+         ntp,
+         vim,
+         nano,
+         less,
+         tzdata,
+         mc,
+         wireless-tools,
+         usbutils,
+         i2c-tools,
+         isc-dhcp-client,
+         wpasupplicant,
+         psmisc,
+         curl,
+         dnsmasq,
+         memtester,
+         apt-utils,
+         dialog,
+         locales,
+         python3-minimal,
+         unzip,
+         minicom,
+         iw,
+         ppp,
+         ssmtp,
+         moreutils,
+         firmware-realtek,
+         logrotate,
+         libnss-mdns,
+         kmod,
+         systemd-sysv
 
 Package: task-wirenboard-wb8
 Architecture: all
@@ -68,4 +160,10 @@ Recommends: libc6:armhf
 Package: wb-hdmi
 Architecture: all
 Description: Wiren Board 8 HDMI packages
-Depends: ${misc:Depends}, xserver-xorg, xinit, x11-xserver-utils, matchbox-window-manager, firefox-esr, unclutter
+Depends: ${misc:Depends},
+         xserver-xorg,
+         xinit,
+         x11-xserver-utils,
+         matchbox-window-manager,
+         firefox-esr,
+         unclutter

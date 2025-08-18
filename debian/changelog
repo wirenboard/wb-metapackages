@@ -1,3 +1,9 @@
+wb-metapackages (1.20.2) stable; urgency=medium
+
+  * Move wb-cloud-agent to wb-suite recommends
+
+ -- Nikolay Korotkiy <nikolay.korotkiy@wirenboard.com>  Mon, 18 Aug 2025 16:20:00 +0400
+
 wb-metapackages (1.20.1) stable; urgency=medium
 
   * Add wb-mqtt-alice to wb-suite recommends
