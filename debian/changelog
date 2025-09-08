@@ -1,3 +1,9 @@
+wb-metapackages (1.20.3) stable; urgency=medium
+
+  * HDMI: Add application dependencies for generating screen refresh rate and applying settings
+
+ -- Anton Tarasov <anton.tarasov@wirenboard.com>  Fri, 05 Sep 2025 10:36:31 +0300
+
 wb-metapackages (1.20.2) stable; urgency=medium
 
   * Move wb-cloud-agent to wb-suite recommends

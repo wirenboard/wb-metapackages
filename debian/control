@@ -166,4 +166,7 @@ Depends: ${misc:Depends},
          x11-xserver-utils,
          matchbox-window-manager,
          firefox-esr,
-         unclutter
+         unclutter,
+         xserver-xorg-core,
+         x11-xserver-utils,
+         libdrm-tests
