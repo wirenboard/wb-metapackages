@@ -169,4 +169,5 @@ Depends: ${misc:Depends},
          unclutter,
          xserver-xorg-core,
          x11-xserver-utils,
-         libdrm-tests
+         libdrm-tests,
+         edid-decode
