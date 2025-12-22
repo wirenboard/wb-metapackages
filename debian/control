@@ -42,7 +42,8 @@ Recommends: wb-update-notifier,
             python3-serial,
             wb-cloud-agent,
             wb-modbus-ext-scanner,
-            wb-mqtt-alice
+            wb-mqtt-alice,
+            wb-scenarios
 Breaks: wb-test-suite-deps (<= 1.12.0)
 Depends: ${misc:Depends},
          wb-essential,
@@ -72,8 +73,7 @@ Depends: ${misc:Depends},
          wb-mqtt-logs,
          wb-diag-collect,
          wb-mqtt-metrics,
-         wb-mqtt-iec104,
-         wb-scenarios
+         wb-mqtt-iec104
 
 Package: task-wb-common-pkgs
 Architecture: all
