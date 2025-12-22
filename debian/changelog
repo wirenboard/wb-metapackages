@@ -1,3 +1,9 @@
+wb-metapackages (1.20.5) stable; urgency=medium
+
+  * Add wb-scenarios to wb-suite recommends
+
+ -- Andrey Ksenofontov <andrey.ksenofontov@wirenboard.com>  Mon, 22 Dec 2025 12:17:00 +0300
+
 wb-metapackages (1.20.4) stable; urgency=medium
 
   * HDMI: Add edid-decode app
