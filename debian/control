@@ -150,7 +150,8 @@ Depends: ${misc:Depends},
          logrotate,
          libnss-mdns,
          kmod,
-         systemd-sysv
+         systemd-sysv,
+         bash-completion
 
 Package: task-wirenboard-wb8
 Architecture: all

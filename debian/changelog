@@ -1,3 +1,9 @@
+wb-metapackages (1.20.6) stable; urgency=medium
+
+  * Add bash-completion to task-wb-base-system
+
+ -- Vladimir Romanov <v.romanov@wirenboard.com>  Wed, 11 Feb 2026 10:37:01 +0300
+
 wb-metapackages (1.20.5) stable; urgency=medium
 
   * Add wb-scenarios to wb-suite recommends
