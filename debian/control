@@ -73,7 +73,8 @@ Depends: ${misc:Depends},
          wb-mqtt-logs,
          wb-diag-collect,
          wb-mqtt-metrics,
-         wb-mqtt-iec104
+         wb-mqtt-iec104,
+         wb-demo-kit-configs
 
 Package: task-wb-common-pkgs
 Architecture: all
