@@ -177,13 +177,14 @@ Conflicts: wb-hdmi
 
 Package: wb-hdmi
 Architecture: all
-Description: Wiren Board 8 HDMI packages (Weston runtime)
+Description: Wiren Board 8 HDMI packages (Sway runtime)
 Depends: ${misc:Depends},
          wb-configs,
          wb-hwconf-manager,
-         weston,
-         xwayland,
+         sway,
+         squeekboard,
          firefox-esr,
+         libglib2.0-bin,
          libdrm-tests,
          edid-decode,
          xcvt
