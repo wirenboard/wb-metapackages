@@ -185,8 +185,7 @@ Depends: ${misc:Depends},
          wb-hwconf-manager,
          wb-sway-kiosk,
          libdrm-tests,
-         edid-decode,
-         xcvt
+         edid-decode
 Conflicts: wb-hdmi-xorg
 Replaces: wb-hdmi-xorg
 Provides: wb-hdmi-runtime
