@@ -174,6 +174,8 @@ Depends: ${misc:Depends},
          libdrm-tests,
          edid-decode
 Conflicts: wb-hdmi
+Replaces: wb-hdmi
+Provides: wb-hdmi-runtime
 
 Package: wb-hdmi
 Architecture: all
@@ -181,11 +183,10 @@ Description: Wiren Board 8 HDMI packages (Sway runtime)
 Depends: ${misc:Depends},
          wb-configs,
          wb-hwconf-manager,
-         sway,
-         squeekboard,
-         firefox-esr,
-         libglib2.0-bin,
+         wb-sway-kiosk,
          libdrm-tests,
          edid-decode,
          xcvt
 Conflicts: wb-hdmi-xorg
+Replaces: wb-hdmi-xorg
+Provides: wb-hdmi-runtime
