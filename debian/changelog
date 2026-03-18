@@ -1,18 +1,10 @@
-wb-metapackages (1.20.8) stable; urgency=medium
-
-  * HDMI:
-    - keep wb-hdmi as the legacy Xorg runtime metapackage
-    - add wb-hdmi-wayland for the packaged sway runtime stack
-
- -- Wiren Board team <info@wirenboard.com>  Tue, 10 Mar 2026 12:00:00 +0000
-
 wb-metapackages (1.20.7) stable; urgency=medium
 
   * HDMI:
     - split legacy Xorg runtime into wb-hdmi-xorg
     - make wb-hdmi depend on Weston-based runtime packages
 
- -- Wiren Board team <info@wirenboard.com>  Mon, 02 Mar 2026 00:00:00 +0000
+ -- Anton Tarasov <anton.tarasov@wirenboard.com>  Mon, 17 Mar 2026 00:00:00 +0000
 
 wb-metapackages (1.20.6) stable; urgency=medium
 
