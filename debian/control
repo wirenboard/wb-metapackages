@@ -158,7 +158,7 @@ Architecture: all
 Description: Wiren Board 8 specific packages
 Recommends: libc6:armhf
 
-Package: wb-hdmi-xorg
+Package: wb-hdmi
 Architecture: all
 Description: Wiren Board 8 HDMI packages (legacy Xorg runtime)
 Depends: ${misc:Depends},
@@ -173,11 +173,10 @@ Depends: ${misc:Depends},
          xserver-xorg-core,
          libdrm-tests,
          edid-decode
-Conflicts: wb-hdmi
-Replaces: wb-hdmi
+Conflicts: wb-hdmi-wayland
 Provides: wb-hdmi-runtime
 
-Package: wb-hdmi
+Package: wb-hdmi-wayland
 Architecture: all
 Description: Wiren Board 8 HDMI packages (Sway runtime)
 Depends: ${misc:Depends},
@@ -186,6 +185,6 @@ Depends: ${misc:Depends},
          wb-sway-kiosk,
          libdrm-tests,
          edid-decode
-Conflicts: wb-hdmi-xorg
-Replaces: wb-hdmi-xorg
+Conflicts: wb-hdmi
+Replaces: wb-hdmi
 Provides: wb-hdmi-runtime
