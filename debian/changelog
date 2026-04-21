@@ -1,8 +1,9 @@
 wb-metapackages (1.20.7) stable; urgency=medium
 
   * HDMI:
-    - split legacy Xorg runtime into wb-hdmi-xorg
-    - make wb-hdmi depend on Weston-based runtime packages
+    - keep wb-hdmi as the legacy Xorg runtime metapackage
+    - add wb-hdmi-wayland for the wb-sway-kiosk runtime
+    - provide wb-hdmi-runtime from both mutually exclusive runtimes
 
  -- Anton Tarasov <anton.tarasov@wirenboard.com>  Mon, 17 Mar 2026 00:00:00 +0000
 
