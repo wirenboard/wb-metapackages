@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = "configure" ] && command -v systemctl >/dev/null && [ -d /run/systemd/system ]; then
+	systemctl daemon-reload || true
+	systemctl stop xinit.service || true
+	systemctl disable xinit.service || true
+	systemctl reset-failed xinit.service || true
+	systemctl enable wb-sway-kiosk.service || true
+	systemctl restart wb-sway-kiosk.service || true
+fi
+
+#DEBHELPER#
