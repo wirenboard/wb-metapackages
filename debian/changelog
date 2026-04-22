@@ -1,3 +1,14 @@
+wb-metapackages (1.20.7) stable; urgency=medium
+
+  * HDMI:
+    - keep wb-hdmi as the legacy Xorg runtime metapackage
+    - add wb-hdmi-wayland for the wb-sway-kiosk runtime
+    - provide wb-hdmi-runtime from both mutually exclusive runtimes
+    - switch systemd runtime services from HDMI runtime metapackage postinst
+    - build deb packages with gzip compression for bullseye dpkg
+
+ -- Anton Tarasov <anton.tarasov@wirenboard.com>  Mon, 17 Mar 2026 00:00:00 +0000
+
 wb-metapackages (1.20.6) stable; urgency=medium
 
   * Add bash-completion to task-wb-base-system
