@@ -111,6 +111,7 @@ Package: task-wb-base-system
 Architecture: all
 Description: Wiren Board base system packages
  This metapackage brings wb-base-system packages for all WB in wirenboard rootfs cache gen.
+Recommends: vim
 Depends: ${misc:Depends},
          netbase,
          ifupdown,
@@ -122,7 +123,6 @@ Depends: ${misc:Depends},
          net-tools,
          ntpdate,
          ntp,
-         vim,
          nano,
          less,
          tzdata,
