@@ -1,3 +1,9 @@
+wb-metapackages (1.20.8) stable; urgency=medium
+
+  * Move vim to wb-base-system recommends
+
+ -- Vladimir Romanov <v.romanov@wirenboard.com>  Wed, 01 Apr 2026 02:01:03 +0300
+
 wb-metapackages (1.20.7) stable; urgency=medium
 
   * HDMI:
