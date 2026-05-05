@@ -183,7 +183,7 @@ Description: Wiren Board 8 HDMI packages (Sway runtime)
 Depends: ${misc:Depends},
          wb-configs,
          wb-hwconf-manager,
-         wb-sway-kiosk,
+         wb-sway-kiosk (>= 1.5+wb100),
          libdrm-tests,
          edid-decode
 Conflicts: wb-hdmi

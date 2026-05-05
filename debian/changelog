@@ -1,3 +1,9 @@
+wb-metapackages (1.20.9) stable; urgency=medium
+
+  * HDMI: require wb-sway-kiosk with wb-sway-kiosk.service for Wayland runtime.
+
+ -- Anton Tarasov <anton.tarasov@wirenboard.com>  Tue, 05 May 2026 09:00:00 +0300
+
 wb-metapackages (1.20.8) stable; urgency=medium
 
   * Move vim to wb-base-system recommends
