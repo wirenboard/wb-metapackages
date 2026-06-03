@@ -1,3 +1,9 @@
+wb-metapackages (1.21.0) stable; urgency=medium
+
+  * Port for Debian 13
+
+ -- Nikolay Korotkiy <nikolay.korotkiy@wirenboard.com>  Tue, 02 Jun 2026 16:20:00 +0400
+
 wb-metapackages (1.20.9) stable; urgency=medium
 
   * HDMI: require wb-sway-kiosk with wb-sway-kiosk.service for Wayland runtime.

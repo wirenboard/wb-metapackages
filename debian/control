@@ -2,8 +2,8 @@ Source: wb-metapackages
 Section: metapackages
 Priority: standard
 Maintainer: Wiren Board team <info@wirenboard.com>
-Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.8
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
 Vcs-Git: https://github.com/wirenboard/wb-metapackages
 Homepage: https://github.com/wirenboard/wb-metapackages
 
@@ -95,7 +95,6 @@ Depends: ${misc:Depends},
          knxd,
          knxd-tools,
          wb-suite,
-         netplug,
          hostapd,
          bluez,
          can-utils,
@@ -121,8 +120,8 @@ Depends: ${misc:Depends},
          wget,
          udev,
          net-tools,
-         ntpdate,
-         ntp,
+         ntpsec-ntpdate,
+         ntpsec,
          nano,
          less,
          tzdata,
