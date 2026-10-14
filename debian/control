@@ -40,9 +40,7 @@ Recommends: wb-update-notifier,
             serial-tool,
             mmc-utils,
             python3-serial,
-            wb-cloud-agent,
             wb-modbus-ext-scanner,
-            wb-mqtt-alice,
             wb-scenarios
 Breaks: wb-test-suite-deps (<= 1.12.0)
 Depends: ${misc:Depends},

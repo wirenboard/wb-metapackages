@@ -1,3 +1,9 @@
+wb-metapackages (1.20.9-cb8ea449) stable; urgency=medium
+
+  * Remove wb-cloud-agent and wb-mqtt-alice from wb-suite
+
+ -- Ilya Titov <ilya.titov@wirenboard.com>  Wed, 14 Oct 2026 12:54:13 +0300
+
 wb-metapackages (1.20.9) stable; urgency=medium
 
   * HDMI: require wb-sway-kiosk with wb-sway-kiosk.service for Wayland runtime.
