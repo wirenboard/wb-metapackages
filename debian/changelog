@@ -1,3 +1,10 @@
+wb-metapackages (1.21.1) stable; urgency=medium
+
+  * Replace vim with vim-tiny
+  * Register vim.tiny as the lowest-priority vim alternative when vim-tiny is installed
+
+ -- Nikolay Korotkiy <nikolay.korotkiy@wirenboard.com>  Fri, 16 Oct 2026 17:20:00 +0400
+
 wb-metapackages (1.21.0) stable; urgency=medium
 
   * Port for Debian 13
