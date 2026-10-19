@@ -1,0 +1,3 @@
+# vim-tiny is only recommended, so (re)check the vim alternative
+# whenever vim.tiny appears or disappears
+interest-noawait /usr/bin/vim.tiny

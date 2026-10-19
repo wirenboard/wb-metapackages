@@ -1,0 +1,19 @@
+#!/bin/sh
+set -e
+
+# vim-tiny doesn't register itself as the vim alternative, so do it here.
+# Use the lowest priority, so any other vim variant (vim.basic, vim.nox, ...)
+# wins in auto mode, and a manually selected alternative is preserved.
+VIM_TINY=/usr/bin/vim.tiny
+
+case "$1" in
+	configure|triggered)
+		if [ -x "$VIM_TINY" ]; then
+			update-alternatives --install /usr/bin/vim vim "$VIM_TINY" 10
+		else
+			update-alternatives --remove vim "$VIM_TINY"
+		fi
+		;;
+esac
+
+#DEBHELPER#
