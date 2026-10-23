@@ -1,3 +1,10 @@
+wb-metapackages (1.21.2) stable; urgency=medium
+
+  * task-wb-base-system: break bullseye sntp, so the package is upgraded
+    instead of removed during bullseye -> trixie upgrade
+
+ -- Nikolay Korotkiy <nikolay.korotkiy@wirenboard.com>  Thu, 22 Oct 2026 18:00:00 +0400
+
 wb-metapackages (1.21.1) stable; urgency=medium
 
   * Replace vim with vim-tiny

@@ -111,6 +111,10 @@ Architecture: all
 Description: Wiren Board base system packages
  This metapackage brings wb-base-system packages for all WB in wirenboard rootfs cache gen.
 Recommends: vim-tiny
+# sntp from bullseye (pulled in by ntp) blocks ntpsec-ntpdig, and on the
+# bullseye -> trixie dist-upgrade apt removes this package instead of
+# removing sntp; breaking sntp here makes apt remove it on upgrade
+Breaks: sntp (<< 1:4.2.8p15+dfsg-2~)
 Depends: ${misc:Depends},
          netbase,
          ifupdown,
